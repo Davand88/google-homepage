@@ -1,0 +1,199 @@
+body {
+  background-color: white;
+
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  padding: 0;
+  marging: 0;
+}
+
+.nav {
+  float: right;
+  position: top-fixed;
+}
+.navli {
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.notification {
+
+  width: 20px;
+  height: 20px;
+  background-color: black;
+
+}
+
+.grid-image {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+    top: 24.4%;
+    left: 40.4%;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.search {
+  font: 16px Arial, sans-serif;
+  line-height: 34px;
+  height: 34px;
+  position: absolute;
+    top: 39%;
+    left: 30.1%;
+    margin-left: auto;
+    margin-top: auto;
+    border-style: none;
+}
+
+#gsb {
+  border-width: 1px;
+  padding-left: 15px;
+  height: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-style: outset;
+  background-image: url(http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png);
+  background-repeat: no-repeat;
+  background-position: 96%;
+  background-size: 13px;
+
+}
+
+#gsb:focus{
+  outline: none;
+}
+
+.button {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  position: fixed;
+    top: 48%;
+    left: 40.1%;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#gb1, #gb2 {
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  font-family: Arial, sans-serif;
+  color: grey;
+  border-radius: 0px;
+  background-color: #EEEEEE;
+  border-style: none;
+  box-shadow: none;
+}
+
+#gb1 {
+  margin-right: 1px;
+
+}
+
+#gb2 {
+  margin-left: 1px;
+}
+
+#gb1, #gb2:link {
+  background-color: #EEEEEE;
+}
+#gb1:hover,#gb2:hover {
+  color: #5e5d62;
+  border-color: #5e5d62;
+  border-style: solid;
+  border-width: thin;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  clear: both;
+  display: block;
+  height: 50px;
+  border-top: 1px solid #e4e4e4;
+  left: 0;
+
+
+
+}
+
+#leftfoot {
+  width: 300px;
+  left: 0;
+  display: inline-block;
+
+}
+.lf {
+  display: inline-block;
+  text-align: center;
+}
+.lf a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  padding-left: 15px;
+  color: #404040;
+}
+.lf a:hover {
+  text-decoration: underline;
+}
+
+
+#rightfoot {
+width: 250px;
+float: right;
+padding: 0;
+margin: 0;
+
+}
+
+.rf {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+
+}
+
+.rf a {
+    text-decoration:none;
+    color: #404040;
+    font-size: 13px;
+    padding-left: 15px;
+    font-family: Arial;
+}
+
+.rf a:hover {
+    text-decoration: underline;
+}
